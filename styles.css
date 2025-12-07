@@ -1,18 +1,16 @@
 
 /* Your CSS Code here. */
 .moviePic {
-    height: 350px;
-    width: 250px;
-    opacity: 0.9;
-    display: block;
-    margin: 20px auto; /* centers image */
+    height: 300px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    opacity: 0.9; /* Adjust as needed */
 }
 .movieDetail {
-    position: relative;
-    top: 20px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
-    line-height: 1.5;
+    position: absolute; /* or relative based on your layout */
+    top: 50%; /* Adjust to center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center */
+    width: 80%; /* Adjust as needed */
+    text-align: center; /* Center text */
+    font-size: 18px; /* Adjust as needed */
 }
